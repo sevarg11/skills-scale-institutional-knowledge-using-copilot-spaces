@@ -30,11 +30,16 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 
 ## Blocker Escalation
 - Level 1: Team-level triage in daily standup
-- Level 2: PM escalates to Product Lead and dependent teams
+- Level 2: PM escalates to Product Lead and dependent teams; PM notifies DevOps and Customer Support Lead if there are production-impact or risk items
 - Level 3: Sponsor-level escalation for business-impacting issues
+
+For a full view of who is responsible and accountable at each stage, refer to the [Roles & Personas RACI Matrix](./roles-and-personas-matrix.md). Role definitions and interaction guidance are in [Roles & Personas](./octoacme-roles-and-personas.md).
 
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo
 - [ ] CI configured for tests and lint
 - [ ] Regular demos scheduled
 - [ ] Risk register updated weekly
+- [ ] [Roles & Personas RACI Matrix](./roles-and-personas-matrix.md) reviewed at kickoff and prior to major releases
+- [ ] Decision log initialized for the project: [Decision Log Template](./templates/decision-log-template.md)
+- [ ] Release checklist confirmed for upcoming releases: [Release Checklist (Compact)](./templates/release-checklist-compact.md)
